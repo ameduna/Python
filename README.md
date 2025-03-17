@@ -29,6 +29,11 @@ sudo adduser ${USER_NAME} i2c
 ````
 There is a part to make the libraries global but it has not implemented. (May autostart a program on reboot)
 
+Install mkfs.vfat
+````
+sudo apt-get install dosfstools
+````
+
 ## Functionallity
 
 Now that WiringPi and Bakebit are installed I can verifya everything is working by using gpio
